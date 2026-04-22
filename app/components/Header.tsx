@@ -55,13 +55,13 @@ export function Header() {
         <div className="hidden lg:flex items-center gap-3 xl:gap-6">
           <Link
             href="#"
-            className="bg-black hover:bg-yellow-100 shadow-m text-gray-100 hover:text-gray-900 border px-3 sm:px-4 py-2 sm:py-2.5 text-sm sm:text-base flex items-center justify-center rounded-md rounded-e-md border-gray-100 hover:border-gray-900 transition-all cursor-pointer whitespace-nowrap"
+            className="bg-black hover:bg-white shadow-m text-gray-100 hover:text-gray-900 border px-3 sm:px-4 py-2 sm:py-2.5 hover:shadow-white shadow-2xl text-sm sm:text-base flex items-center justify-center rounded-md rounded-e-md border-gray-100 hover:border-gray-900 transition-all cursor-pointer whitespace-nowrap"
           >
             Hire Me
           </Link>
           <Link
             href="https://github.com/AurelGolemi"
-            className="bg-gray-100 text-black border px-3 sm:px-4 py-2 sm:py-2.5 text-sm sm:text-base hover:bg-gray-200 flex items-center justify-center rounded-md rounded-e-md border-gray-900 transition-all cursor-pointer whitespace-nowrap"
+            className="bg-white text-black border px-3 sm:px-4 py-2 sm:py-2.5 hover:shadow-white shadow-2xl text-sm sm:text-base hover:bg-gray-200 hover:px-6 hover:py-3 flex items-center justify-center rounded-md rounded-e-md border-gray-900 transition-all cursor-pointer whitespace-nowrap"
           >
             GitHub
           </Link>
@@ -126,7 +126,7 @@ export function Header() {
               </Link>
               <Link
                 href="https://github.com/AurelGolemi"
-                className="bg-gray-100 text-black border px-4 py-2.5 sm:py-3 text-sm sm:text-base flex items-center justify-center rounded-md border-gray-900 hover:shadow-white shadow-xl hover:bg-gray-200 transition-all cursor-pointer"
+                className="bg-gray-100 text-black border px-4 py-2.5 sm:py-3 hover:py-3.5 text-sm sm:text-base flex items-center justify-center rounded-md border-gray-900 hover:shadow-white shadow-xl hover:bg-gray-200 transition-all cursor-pointer"
               >
                 GitHub
               </Link>

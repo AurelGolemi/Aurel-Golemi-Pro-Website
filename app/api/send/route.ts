@@ -17,16 +17,16 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    if (!process.env.CONTACT_EMAIL) {
-      console.error("CONTACT_EMAIL is not configured");
-      return NextResponse.json(
-        {
-          error:
-            "Email recipient is not configured. Please contact the website owner.",
-        },
-        { status: 500 },
-      );
-    }
+    // if (!process.env.CONTACT_EMAIL) {
+    //   console.error("CONTACT_EMAIL is not configured");
+    //   return NextResponse.json(
+    //     {
+    //       error:
+    //         "Email recipient is not configured. Please contact the website owner.",
+    //     },
+    //     { status: 500 },
+    //   );
+    // }
 
     const { fullName, company, phone, email, message } = await req.json();
 

@@ -135,7 +135,7 @@ export function Header() {
             </Link>
             <div className="flex flex-col gap-3 pt-4 sm:pt-6 border-t border-gray-700">
               <Link
-                href="/contact"
+                href="/Contact"
                 className="bg-black hover:bg-white text-gray-100 hover:text-gray-900 border px-4 py-2.5 sm:py-3 text-sm sm:text-base flex items-center justify-center rounded-md border-gray-100 hover:border-gray-900 hover:shadow-white shadow-xl transition-all cursor-pointer"
               >
                 Hire Me

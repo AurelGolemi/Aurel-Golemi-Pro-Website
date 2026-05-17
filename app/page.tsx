@@ -231,7 +231,7 @@ export default function Portfolio() {
               "Currently accepting freelance opportunities for Q3. If you have a complex problem that requires a scalable solution, let's talk."
             }
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-3 justify-center items-stretch mt-6 w-full max-w-2xl mx-auto rounded-s">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-3 justify-items-center md:justify-items-start md:items-stretch mt-6 w-full max-w-2xl mx-auto rounded-s">
             {[
               {
                 href: "mailto:golemiaurel68@gmail.com",

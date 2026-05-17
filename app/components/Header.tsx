@@ -69,7 +69,7 @@ export function Header() {
         {/* Desktop Buttons */}
         <div className="hidden lg:flex items-center gap-3 xl:gap-6">
           <Link
-            href="/contact"
+            href="/Contact"
             className="bg-black hover:bg-white shadow-m text-gray-100 hover:text-gray-900 border px-3 sm:px-4 py-2 sm:py-2.5 hover:shadow-white shadow-2xl text-sm sm:text-base flex items-center justify-center rounded-md rounded-e-md border-gray-100 hover:border-gray-900 transition-all cursor-pointer whitespace-nowrap"
           >
             Hire Me

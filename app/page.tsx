@@ -298,7 +298,7 @@ export default function Portfolio() {
         </div>
         <div className="flex justify-center mt-8">
           <Link href="/Contact/">
-            <button className="bg-white text-black font-semibold px-8 py-4 rounded-lg hover:scale-105 transition-all duration-300 hover:shadow-lg active:scale-95 cursor-pointer">
+            <button type="submit" className="bg-white text-black font-semibold px-8 py-4 rounded-lg hover:scale-105 transition-all duration-300 hover:shadow-lg active:scale-95 cursor-pointer">
               Or Visit Form
             </button>
           </Link>

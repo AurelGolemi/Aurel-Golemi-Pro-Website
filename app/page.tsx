@@ -28,7 +28,7 @@ export default function Portfolio() {
             comes next.
           </p>
           <Link
-            href="/Contact"
+            href="/Contact/"
             className="inline-block bg-white text-black px-8 py-4 font-semibold hover:bg-zinc-200 transition-colors"
           >
             Initiate Project
@@ -295,6 +295,13 @@ export default function Portfolio() {
               </Link>
             ))}
           </div>
+        </div>
+        <div className="flex justify-center mt-8">
+          <Link href="/Contact/">
+            <button className="bg-white text-black font-semibold px-8 py-4 rounded-lg hover:bg-zinc-100 transition-all duration-300 hover:shadow-lg active:scale-95">
+              Or Visit Form
+            </button>
+          </Link>
         </div>
       </section>
 

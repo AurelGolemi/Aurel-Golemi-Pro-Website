@@ -13,19 +13,21 @@ export function Header() {
         {/* <h1 className="text-white text-lg sm:text-2xl lg:text-3xl font-bold truncate">
           Aurel Golemi
         </h1> */}
-        <Image
-          src="/Aurel_Golemi_Professional_Web_Logo_Header_2.png"
-          alt="Aurel Golemi Logo"
-          width={200}
-          height={100}
-        />
+        <Link href={"../"}>
+          <Image
+            src="/Aurel_Golemi_Professional_Web_Logo_Header_2.png"
+            alt="Aurel Golemi Logo"
+            width={200}
+            height={100}
+          />
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex lg:items-center lg:justify-between">
           <ul className="flex items-center justify-between gap-4 lg:gap-6 xl:gap-8">
             <li>
               <Link
-                href="#home"
+                href="/"
                 className="text-xs sm:text-sm md:text-base text-gray-300 hover:text-black px-3 sm:px-4 lg:px-6 py-2 bg-transparent hover:bg-gray-100 rounded-full hover:shadow-white shadow-2xl transition-all whitespace-nowrap"
               >
                 Home

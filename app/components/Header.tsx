@@ -14,7 +14,7 @@ export function Header() {
           Aurel Golemi
         </h1> */}
         <Image
-          src="/Aurel_Golemi_Logo.png"
+          src="/Aurel_Golemi_Professional_Web_Logo_Header_2.png"
           alt="Aurel Golemi Logo"
           width={200}
           height={100}
